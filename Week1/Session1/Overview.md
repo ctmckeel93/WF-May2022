@@ -28,8 +28,6 @@
 
 - Navigating the Learn Platform
 
-- Friday Night Highlights!!!
-
 -  [Lecture Videos Page](https://login.codingdojo.com/m/283/8978/60942)
 
 -  [TA Hall](https://docs.google.com/document/d/15B3VzKyqk1o9YbqA9Im1LDvTsO3M-8Uk8meeqnob3IE/edit)
