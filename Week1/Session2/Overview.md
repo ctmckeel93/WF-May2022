@@ -15,14 +15,14 @@ From this point forward you should not be using the following in your HTML
 *** Vocabulary ***
 
 - stylesheet -where we will write the code for all of our styling
-- selector - indicator used to target a specific part of our css
+- selector - indicator used to target a specific part of our html
 - ruleset - a set of properties that pertain to the selector
 - property - the different parts of an element that we can change - [Properties Reference](https://www.w3schools.com/cssref/default.asp)
 
 *** END ***
 
 ## Introduction
-    - What is CSS?
+    - What is CSS? - Cascading Style Sheets
     - Why is it used? 
         - Colors
             - name, Hexadecimal, RGBA, HSL
@@ -68,9 +68,9 @@ From this point forward you should not be using the following in your HTML
     - margin - Space around element
 
     ## Format - margin, padding, border
-        - all sides
-        - top/bottom right/left
-        - top right bottom left
+        - all sides (20px)
+        - top/bottom right/left (20px 10px)
+        - top right bottom left (10px 20px 30px 40px)
         - top/bottom right left
         - any combination
 
