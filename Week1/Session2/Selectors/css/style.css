@@ -1,0 +1,41 @@
+* {
+    color: blue;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+    font-family: "Helvetica Neue", "Helvetica";
+}
+
+#bg-green {
+    background-color: green;
+}
+
+
+
+.red {
+    display:inline-block;
+    width: 150px;
+    height: 200px;
+    color: red;
+    background-color:green;
+    font-size: 1.5em;
+}
+
+.magenta {
+    color: magenta;
+}
+
+
+p {
+    color: aquamarine;
+}
+
+/* p {
+    color: red; this will overwrite the above
+} */
+h1 {
+    color: lime;
+}
