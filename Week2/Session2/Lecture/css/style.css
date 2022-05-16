@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.box {
+    height: 300px;
+    width: 300px;
+    color: aqua;
+    background-color: black;
+}
+
+img {
+    /* margin-top: -85px; */
+    width: 250px;
+}
