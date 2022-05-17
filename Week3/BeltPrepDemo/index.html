@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Prep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <img src="images/icon1.png" alt="icon 1">
+                <h1>WE COLLECT YOUR IT</h1>
+            </div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li>|</li>
+                <li><a href="#">About us</a></li>
+                <li>|</li>
+                <li><a href="#">Book a collection</a></li>
+                <li>|</li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="help-info">
+                <h2>Helping others with your computer</h2>
+                <p>A computer is a vital tool for anyone living in this day and age. This is why we aim to donate every 1 in 10 computers we collect to charitable and worthy causes.</p>
+                <button onclick="alert('I am here to learn more')">Learn More >></button>
+            </div>
+            <img src="images/main_img.png" alt="main pic">
+        </main>
+        <div class="extra-info">
+            <div class="left">
+                <div class="top">
+                    <div class="box">
+                        <div class="heading">
+                            <img src="images/icon2.png" alt="icon 2">
+                            <h3>Safe & Secure</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facilis porro itaque eaque sed nemo voluptatum voluptatibus iste.</p>
+                    </div>
+                    <div id="middle-box" class="box">
+                        <div class="heading">
+                            <img src="images/icon3.png" alt="icon 3">
+                            <h3>Eco-Friendly</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facilis porro itaque eaque sed nemo voluptatum voluptatibus iste.</p>
+                    </div>
+                    <div class="box">
+                        <div class="heading">
+                            <img src="images/icon4.png" alt="icon 4">
+                            <h3>Helping Others</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facilis porro itaque eaque sed nemo voluptatum voluptatibus iste.</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <h3>Welcome to We Collect Your IT</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eum dolores corporis quod ullam nihil impedit illo dolorem quisquam minus possimus aliquam. Earum in fuga exercitationem id cum! Animi, repellendus!</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="rec-info">
+                    <h3>Why waste? We will collect...</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ab, debitis, odio eum dolorum ducimus nostrum recusandae, impedit corporis consectetur unde voluptas pariatur!</p>
+                    <a href="#">Read More</a>
+                </div>
+                <img onmouseover="danger()" onmouseout="safe()" src="images/recycle.png" alt="recycle" id="recycle">
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="section">
+                <h4>Contact us</h4>
+                <div class="info">
+                    <p>We Collect Your IT</p>
+                    <p>Leacing Computers Ltd.</p>
+                    <p>27 Vesta Ave</p>
+                    <p>St Arbors, Hertfordshire</p>
+                </div>
+                <p>info@we-collect-your-it.co.uk</p>
+            </div>
+            <div class="section">
+                <h4>Support and help</h4>
+                <p>About us</p>
+                <p>How we work</p>
+                <p>Helping others</p>
+                <p>Book a collection</p>
+                <p>Contact us</p>
+            </div>
+            <div class="section">
+                <h4>Want us to get in touch with you?</h4>
+                <p>Leave us your name, number and e-mail address and we will get in touch</p>
+                <form>
+                    <div class="inputs">
+                        <div class="name">
+                            <input placeholder="First" type="text">
+                            <input placeholder="Last" type="text">
+                        </div>
+                        <div class="submit">
+                            <input oninput="changeTextColor(this)" placeholder="###-###-####" id="phone" type="text">
+                        </div>
+                    </div>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>We Collect Your IT is a project set up by Leading Computers L10. Copyright @ 2011 All rights reserved</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

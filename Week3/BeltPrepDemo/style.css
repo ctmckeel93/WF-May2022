@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* background-color:black; */
+}
+
+#middle-box {
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+#recycle {
+    width: 100px;
+    height: 180px;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+
+div.container {
+    margin: auto;
+    /* height: 1000px; */
+    width: 700px;
+    /* border: 2px solid red; */
+}
+
+header {
+    display: flex;
+    height: 40px;
+    background-color:black;
+    color: silver;
+}
+
+header > * {
+    /* border: 1px solid purple; */
+    flex: 1;
+    height: inherit;
+}
+
+div.title {
+    display: flex;
+    align-items: center;
+    font-size: 0.5rem;
+    padding-left: 10px;
+}
+
+div.title img {
+    margin-right: 5px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+    font-size:16px;
+}
+
+header a {
+    text-decoration: none;
+    color: silver;
+}
+
+main, div.extra-info, div.contact-info {
+    height: 300px;
+    /* border: 1px solid lime; */
+}
+
+main {
+    display: flex;
+    height: 280px;
+}
+
+main > * {
+    flex: 1;
+}
+
+main img {
+    padding: 20px;
+    width: 50%;
+}
+
+div.help-info {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+main button {
+    width: 100px;
+    background-color:black;
+    color: silver;
+    align-self: flex-end;
+}
+
+div.extra-info {
+    display: flex;
+    height: 350px;
+}
+
+div.extra-info > * {
+    flex:1;
+    /* border: 1px solid purple; */
+}
+
+div.left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+div.left > * {
+    flex:1;
+    background-color: rgb(234, 231, 231);
+}
+
+div.top {
+    display: flex;
+    /* padding: 30px; */
+}
+
+div.heading {
+    display: flex;
+    align-items:center;
+}
+
+div.heading img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+div.box {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    /* border: 1px solid orange; */
+    padding: 2px;
+    justify-content: space-around;
+}
+
+div.box p {
+    font-size: 10pt;
+    padding: 5px;
+}
+
+div.bottom {
+    display: flex;
+    padding: 30px;
+    /* padding-bottom: 10px; */
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+div.right {
+    display: flex;
+    padding: 10px;
+    height: 370px;
+}
+
+div.right > * {
+    flex:1;
+}
+
+div.right a {
+    color: purple;
+}
+
+div.rec-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.contact-info {
+    display: flex;
+    height: 250px;
+    background-color:black;
+    color: silver;
+}
+
+div.contact-info > * {
+    flex:1;
+}
+
+div.section {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* height: 300px; */
+}
+
+form {
+    display: flex;
+    padding: 10px;
+}
+
+div.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.name input {
+    width: 80px;
+}
+
+input {
+    color: white;
+    background-color:black;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    background-color:black;
+    border: 1px solid silver;
+    height: 20px;
+    padding: 5px;
+    color: silver;
+    align-self: flex-end;
+}
+
+footer {
+    font-size: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 30px;
+    background-color: silver;
+}
