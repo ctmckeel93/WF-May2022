@@ -5,7 +5,7 @@
 
 # Lecture - Advanced JS
 
-## const & let
+## const & let - ES6
     - const - cannot be changed and is scoped within its block
     - let - also block scoped
 ## Conditionals
